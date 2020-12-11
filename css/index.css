@@ -1,0 +1,237 @@
+:root {
+  max-width: 500px;
+}
+
+body {
+  background-color: #efeff5;
+  font-family: 'Raleway', sans-serif;
+  color: #26222b;
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  text-align: center;
+}
+
+.topnav #myLinks {
+  display: none;
+  text-align: center;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav-header {
+  display: flex;
+}
+
+.topnav a.icon {
+  background: rgba(0, 0, 0, 0);
+  display: flex;
+  flex-direction: column-reverse;
+  /* position: absolute; */
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #333;
+  color: white;
+  width: 100%;
+}
+
+.logo {
+  height: 20px;
+  margin: 0 auto;
+  padding: 0px;
+  display: flex;
+}
+
+.contact-button:hover {
+  background-color: #9d2dff4b;
+  color: #e8e8ff;
+}
+
+.contact-button {
+  background-color: #9c2dff;
+  border: 0;
+  color: #e8e8ff;
+  cursor: pointer;
+}
+
+#contact-form {
+  display: block;
+  background-color: #e8e8ff;
+  color: #635e6b;
+  font-weight: bold;
+}
+
+.inputs input,textarea {
+  margin: 10px;
+}
+
+img {
+  max-width: 400px;
+}
+
+
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+a:hover {
+  color: #9c2dff;
+}
+
+a {
+  color: #e8e8ff;
+  text-decoration: none;
+}
+
+.transparent-layer {
+  padding: 15px;
+  background: rgba(135, 76, 175, 0.3) ;
+}
+
+.basic-info {
+  background-image: url("../img/branday-puzzle.png");
+  background-size: cover;
+  color: #10061b;
+}
+
+.basic-info h1 {
+  font-weight: bold;
+}
+
+.brnd-adt:hover {
+  background-color: #9d2dff4b;
+  color: #e8e8ff;
+}
+
+.brnd-adt {
+  background-color: #9c2dff;
+  border-radius: 3px;
+  border-color: #9d2dff96;
+  color: #e8e8ff;
+  cursor: pointer;
+}
+
+.puzzle-img {
+  opacity: 60%;
+}
+
+.what-we-do {
+  background-color: #efeff5;
+}
+
+.numbered-box1 {
+  background-color: #e8e8ff;
+}
+
+.nmbr1 {
+  color: #9c2dff;
+  font-weight: bold;
+}
+
+.numbered-box2 {
+  background-color: #e8e8ff;
+}
+
+.nmbr2 {
+  color: #9c2dff;
+  font-weight: bold;
+}
+
+.numbered-box3 {
+  background-color: #e8e8ff;
+}
+
+.nmbr3 {
+  color: #9c2dff;
+  font-weight: bold;
+}
+
+hr.rounded {
+  border-top: 4px solid #9c2dff;
+  border-radius: 5px;
+  width: 150px;
+}
+
+.why-it-works h3 {
+  color: #9c2dff;
+  font-weight: bold;
+}
+
+.portfolio {
+  background-color: #e8e8ff;
+  padding: 10px;
+}
+
+.hvrd-txt {
+  color: #9c2dff;
+  font-weight: bold;
+}
+
+.hvrd-txt:hover {
+  color: #10061b;
+  font-weight: bold;
+}
+
+.dropdown-questions {
+  border: 1px solid #9c2dff;
+}
+
+.get-a-quote:hover {
+  background-color: #9d2dff4b;
+  color: #e8e8ff;
+}
+
+.get-a-quote {
+  background-color: #9c2dff;
+  color: #e8e8ff;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #26222b;
+}
+
+.footer-moto {
+  color: #9d2dff;
+}
+
+small {
+  color: #e8e8ff79;
+}
+
+.links-to-menu {
+  display: block;
+}
+
+ul {
+  justify-content: space-evenly;
+  padding: 0;
+}

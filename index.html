@@ -5,62 +5,61 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Branday</title>
-  <link rel="stylesheet" href="/Branday/index.css">
+  <link rel="stylesheet" href="/css/index.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="javascript" href="js/index.js">
 </head>
 
 <body>
-  <header>
-    <nav>
-      <img src="img/branday-logo-light.png" alt="Company logo">
-      <div class="menu">
-        <ul>
-          <li>
-            <a href="#What-we-do">What we do</a>
-          </li>
-          <li>
-            <a href="#Why-it-works">Why it works</a>
-          </li>
-          <li>
-            <a href="#Portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a href="#FAQ">FAQ</a>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <button class="contact-button">CONTACT US</button>
-        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/"
-          method="post">
-          <fieldset id="fs-frm-inputs">
-            <label for="full-name">Full Name</label>
-            <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-            <label for="email-address">Email Address</label>
-            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-            <label for="message">Message</label>
-            <textarea rows="5" name="message" id="message"
-              placeholder="Please type here your question and we'll contact you as soon as possible"
-              required=""></textarea>
-            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-          </fieldset>
-          <input type="submit" value="Submit">
-        </form>
 
+  <script>
+    function burger() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+
+  <header>
+    <nav class="topnav">
+      <div class="topnav-header">
+        <a href="javascript:void(0);" class="icon" onclick="burger()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="#home" class="active">
+          <img class="logo" src="img/branday-logo-light.png" alt="Company logo">
+        </a>
+        <button class="contact-button">CONTACT US</button>
       </div>
+      <div id="myLinks">
+        <a href="#What-we-do">What we do</a>
+        <a href="#Why-it-works">Why it works</a>
+        <a href="#Portfolio">Portfolio</a>
+        <a href="#FAQ">FAQ</a>
+      </div>
+
+    </nav>
+    <div>
+    </div>
     </nav>
   </header>
   <section class="basic-info">
-    <div class="moto">
-      <h1>Your prosper and recognition is our expertise</h1>
-      <p>Strong brand empowers a business. If you want to become recognizable on the market start with a brand audit
-        today</p>
-    </div>
-    <button class="brnd-adt">Get brand audit</button>
-    <div class="puzzle-img">
-      <img src="img/branday-puzzle.png" alt="Main picture">
+    <div class="transparent-layer">
+      <div class="moto">
+        <h1>Your prosper and recognition is our expertise</h1>
+        <p>Strong brand empowers a business. If you want to become recognizable on the market start with a brand audit
+          today</p>
+      </div>
+      <button class="brnd-adt">Get brand audit</button>
+      <!-- <div class="puzzle-img">
+        <img src="img/branday-puzzle.png" alt="Main picture">
+      </div> -->
     </div>
   </section>
   <section class="what-we-do">
@@ -109,17 +108,17 @@
     <h2>Why it works?</h2>
     <div>
       <div>
-        <img src="img/like-icon.png" alt="Thumbs up icon">
+        <img class="icon" src="img/like-icon.png" alt="Thumbs up icon">
         <h3>Check</h3>
         <p>We give a fresh look at your business</p>
       </div>
       <div>
-        <img src="img/change-icon.png" alt="Proccessing icon">
+        <img class="icon" src="img/change-icon.png" alt="Proccessing icon">
         <h3>Change</h3>
         <p>Become re-designed and up to newest trends</p>
       </div>
       <div>
-        <img src="img/success-icon.png" alt="Success icon">
+        <img class="icon" src="img/success-icon.png" alt="Success icon">
         <h3>Challenge</h3>
         <p>Reach new goals and scale your business</p>
       </div>
@@ -152,7 +151,7 @@
     <div>
       <div class="dropdown-questions">
         <div>
-          <img src="img/minus-icon.png" alt="Minus">
+          <img class="icon" src="img/minus-icon.png" alt="Minus">
           <h3>Brand is just a logo, right?</h3>
         </div>
         <div>
@@ -164,11 +163,11 @@
         </div>
       </div>
       <div class="dropdown-questions">
-        <img src="img/plus-icon.png" alt="Plus">
+        <img class="icon" src="img/plus-icon.png" alt="Plus">
         <h3>Why can't I keep my design as it is of now?</h3>
       </div>
       <div class="dropdown-questions">
-        <img src="img/minus-icon.png" alt="Minus">
+        <img class="icon" src="img/minus-icon.png" alt="Minus">
         <h3>Will brand help me in attracting new customers?</h3>
       </div>
     </div>
@@ -196,13 +195,13 @@
         </div>
         <div class="social-media">
           <a href="https://twitter.com/?lang=en" target="_blank">
-            <img src="img/twitter-icon.png" alt="Twitter icon">
+            <img class="icon" src="img/twitter-icon.png" alt="Twitter icon">
           </a>
           <a href="https://www.instagram.com/" target="_blank">
-            <img src="img/instagram-icon.png" alt="Instagram icon">
+            <img class="icon" src="img/instagram-icon.png" alt="Instagram icon">
           </a>
           <a href="https://www.facebook.com/" target="_blank">
-            <img src="img/facebook-icon.png" alt="Facebook icon">
+            <img class="icon" src="img/facebook-icon.png" alt="Facebook icon">
           </a>
         </div>
         <div>
@@ -226,6 +225,26 @@
         </ul>
       </div>
     </div>
+    <div id="contact-form">
+      <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/"
+        method="post">
+        <fieldset id="fs-frm-inputs">
+        <div class="inputs">
+          <label for="full-name">Full Name</label>
+          <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+        </div>
+        <div class="inputs">
+          <label for="email-address">Email Address</label>
+          <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+        </div>
+        <div class="inputs">
+          <label for="message">Message</label>
+          <input type="text" name="_subject" id="email-subject" placeholder="Type your message">
+        </div>
+        </fieldset>
+        <input type="submit" value="Submit">
+    </div>
+    </form>
   </footer>
 </body>
 
