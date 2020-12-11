@@ -79,6 +79,9 @@ body {
   border: 0;
   color: #e8e8ff;
   cursor: pointer;
+  padding: 10px;
+  font-size: 9pt;
+  font-weight: 600;
 }
 
 #contact-form {
