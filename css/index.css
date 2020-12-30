@@ -334,6 +334,30 @@ footer {
   width: 100%;
 }
 
+.countdown {
+  height: 200px;
+  width: auto;
+  color:#10061b;
+}
+
+.countdown p {
+  margin: auto;
+  width: 50%;
+  padding-bottom: 20px;
+  border-top: 1px solid #9d2dff9d;
+  font-weight: 800;
+  font-size: 40pt;
+  color: #9c2dff;
+  text-align: center;
+}
+
+.countdown h2 {
+  padding: 16px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30pt;
+}
+
 /* When the browser is at least 600px and above */
 @media screen and (min-width: 600px) {
   .boxes {
