@@ -322,6 +322,7 @@ footer {
 .footer-info {
   padding: 20px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .portfolio-box {
@@ -341,11 +342,10 @@ footer {
   #fs-frm-inputs {
     display: flex;
   }
-  /* .why-boxes {
-    display: flex;
-  } */
+  
 
   .numbered-box {
     margin: 10px;
   }
+
 }
